@@ -5,6 +5,8 @@ tap 'caskroom/cask'
 tap 'homebrew/services'
 
 brew 'android-platform-tools'
+brew 'zsh'
+brew 'zsh-completions'
 brew 'ansible'
 brew 'awscli'
 brew 'bash-completion'
