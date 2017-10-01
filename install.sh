@@ -16,10 +16,17 @@ cd ${DOTFILE_LOCATION}
 brew bundle
 cd ~
 
+# ruby
+rbenv install 2.2.5
+rbenv global 2.2.5
+
 # node
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.5/install.sh | bash
 
-# copy macOs files
+# run macOS defaults script
+cd ${DOTFILE_LOCATION}
+./.macos
+
 
 echo "******************** Done ********************"
 echo "Don't forget to configure SSH properly with key and config"
