@@ -4,6 +4,8 @@ This is a collection of mac provisioning tools for setting up a new dev machine.
 
 This includes a list of frequently used applications, and many CLI tools used daily. This is combined with dotfiles listed in my Dropbox account.
 
+This tool is based on [the Brewfile system](https://github.com/Homebrew/homebrew-bundle) and [this excellent idea](https://chodounsky.net/2017/01/20/automate-your-macos-development-machine-setup/)
+
 Full list of cli tools is:
 
 ```bash
